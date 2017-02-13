@@ -18,9 +18,9 @@
                         </ul>
                     </li>
                     <li id="parent-list-group">
-                        <a href="#">Uninterview Cadidates <span class="badge text-info">12</span></a>
+                        <a href="#">Employee<span class="badge text-info">12</span></a>
                         <ul id="sub-list-group">
-                            <li><a href="#">Item 1</a></li>
+                            <li><a href="{{ action('Web\UserController@index') }}">List employee</a></li>
                             <li><a href="#">Item 1</a></li>
                             <li><a href="#">Item 1</a></li>
                         </ul>

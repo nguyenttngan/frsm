@@ -17,3 +17,4 @@ Route::get('/', function () {
 Route::get('test', function () {
     return view('pages.home');
 });
+Route::get('users-list', 'Web\UserController@index');
